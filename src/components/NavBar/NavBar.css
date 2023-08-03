@@ -3,3 +3,10 @@
     background-color: seagreen;
   }
 
+  .ActiveOption {
+    color: black; /* Change this to the desired color */
+  }
+  
+  .Option {
+    color: white; /* Change this to the desired color */
+  }

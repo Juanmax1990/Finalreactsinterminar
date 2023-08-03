@@ -1,5 +1,6 @@
 import CartWidget from "../CartWidget/CartWidget"
 import {NavLink, Link} from 'react-router-dom'
+// eslint-disable-next-line jsx-a11y/anchor-is-valid
 import './NavBar.css';
 
 const NavBar = () => {
@@ -23,47 +24,60 @@ const NavBar = () => {
               <div className="collapse navbar-collapse"      id="navbarSupportedContent">
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                   <li className="nav-item">
-
-                  <NavLink to={`category/Raquetas`} class={({isActive}) => isActive ? 'ActiveOption' : 'Option'} className="nav-link active " aria-current="page">
-                    Raquetas
-                  </NavLink>
-                                
-                  </li>
-                  <li className="nav-item">
-
-                  <NavLink to={`category/paletas`} class={({isActive}) => isActive ? 'ActiveOption' : 'Option'} className="nav-link active " aria-current="page">
-                    Paletas
-                  </NavLink>
             
+                  <NavLink to={`category/Raquetas`} className={({isActive}) => isActive ? 'ActiveOption' : 'Option'} >
+                    
+                      Raquetas
+                    
+                  </NavLink>
+                    
                   </li>
                   <li className="nav-item">
-                  
-                  <NavLink to={`category/calzado`} class={({isActive}) => isActive ? 'ActiveOption' : 'Option'} className="nav-link active " aria-current="page">
-                    Calzado
+            
+                  <NavLink to={`category/Paletas`} className={({isActive}) => isActive ? 'ActiveOption' : 'Option'} >
+                   
+                      Paletas
+                    
                   </NavLink>
                   </li>
                   <li className="nav-item">
                   
-                  <NavLink to={`category/indumentaria`} class={({isActive}) => isActive ? 'ActiveOption' : 'Option'} className="nav-link active " aria-current="page">
-                    Indumentaria
+                  <NavLink to={`category/Calzado`} className={({isActive}) => isActive ? 'ActiveOption' : 'Option'} >
+                    
+                      Calzado
+                    
                   </NavLink>
                   </li>
                   <li className="nav-item">
                   
-                  <NavLink to={`category/encordados`} class={({isActive}) => isActive ? 'ActiveOption' : 'Option'} className="nav-link active " aria-current="page">
-                    Encordados
+                  <NavLink to={`category/Indumentaria`} className={({isActive}) => isActive ? 'ActiveOption' : 'Option'} >
+                    
+                      Indumentaria
+                    
                   </NavLink>
                   </li>
                   <li className="nav-item">
                   
-                  <NavLink to={`category/accesorios`} class={({isActive}) => isActive ? 'ActiveOption' : 'Option'} className="nav-link active " aria-current="page">
-                    Accesorios
+                  <NavLink to={`category/Encordados`} className={({isActive}) => isActive ? 'ActiveOption' : 'Option'} >
+                    
+                      Encordados
+                    
                   </NavLink>
                   </li>
                   <li className="nav-item">
                   
-                  <NavLink to={`category/suplementos`} class={({isActive}) => isActive ? 'ActiveOption' : 'Option'} className="nav-link active " aria-current="page">
-                    Suplementos
+                  <NavLink to={`category/Accesorios`} className={({isActive}) => isActive ? 'ActiveOption' : 'Option'} >
+                    
+                      Accesorios
+                  
+                  </NavLink>
+                  </li>
+                  <li className="nav-item">
+                  
+                  <NavLink to={`category/Suplementos`} className={({isActive}) => isActive ? 'ActiveOption' : 'Option'} >
+                    
+                      Suplementos
+                   
                   </NavLink>
                   </li>
                 </ul>
