@@ -25,14 +25,21 @@ code {
   color: #C8BBA8;
 }
 
-.cartas{
+.cartas {
   display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: space-evenly;
-	align-items: flex-start;
-	align-content: center;
-  font-family: 'Quicksand', sans-serif;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+.cartas .card {
+  width: 300px; /* Ancho fijo para cada carta */
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
 }
 
 .imgPeque{
@@ -43,3 +50,4 @@ code {
 .nav-link {
   text-decoration: none;
 }
+
