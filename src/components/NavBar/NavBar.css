@@ -5,8 +5,12 @@
 
   .ActiveOption {
     color: black; /* Change this to the desired color */
+    margin: 8px;
+    text-decoration: none;
   }
   
   .Option {
     color: black; /* Change this to the desired color */
+    margin: 8px;
+    text-decoration: none;
   }
