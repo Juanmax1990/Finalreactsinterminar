@@ -21,6 +21,7 @@ const Checkout = () => {
                 buyer: {
                     name, phone, email
                 },
+                
                 items: cart,
                 total: total,
                 date: Timestamp.fromDate(new Date())
